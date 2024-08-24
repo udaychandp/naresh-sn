@@ -7,7 +7,35 @@ document.addEventListener('DOMContentLoaded', () => {
       preloader.remove();
     });
   }
+// -------------------------
+// window.addEventListener("load", function(){
+//   setTimeout(
+//     function open(event){
+//       document.querySelector(".popup").style.display = "block";
 
+//     },
+//     100
+//   )
+// });
+
+// document.querySelector("#close").addEventListener("click", function(){
+//   document.querySelector(".popup").style.display="none";
+// });
+window.addEventListener("load", function(){
+  setTimeout(
+      function open(_event){
+          document.querySelector(".popup").style.display = "block";
+      },
+      5000
+  )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
+
+// ----------------------
   /**
    * Sticky header on scroll
    */
