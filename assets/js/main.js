@@ -21,19 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // document.querySelector("#close").addEventListener("click", function(){
 //   document.querySelector(".popup").style.display="none";
 // });
-window.addEventListener("load", function(){
-  setTimeout(
-      function open(_event){
-          document.querySelector(".popup").style.display = "block";
-      },
-      5000
-  )
-});
 
-
-document.querySelector("#close").addEventListener("click", function(){
-  document.querySelector(".popup").style.display = "none";
-});
 
 // ----------------------
   /**
@@ -168,3 +156,23 @@ document.querySelector("#close").addEventListener("click", function(){
   });
 
 });
+
+
+//--------------------------------------------------------------------------------------------
+
+window.addEventListener("load", function(){
+  setTimeout(
+      function open(_event){
+          document.querySelector(".popup").style.display = "block";
+      },
+      5000
+  )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
+
+//--------------------------------------------------------------------------------------------
+

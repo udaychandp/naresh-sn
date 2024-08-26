@@ -8,7 +8,7 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #0d42ff;
+  --color-primary: #ff6c02;
   --color-secondary: #CC5500; 
   /* background  */
 }
@@ -121,7 +121,7 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  background-color:#cc5500;
   position: absolute;
   inset: 0;
 }
@@ -169,7 +169,7 @@ section {
 .breadcrumbs nav ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4278cc;
+  color: #cc5500;
   content: "/";
 }
 
@@ -195,7 +195,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(13, 66, 255, 0.8);
+  background: #cc5500;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #cc5500;
   }
 
   .navbar .dropdown ul {
@@ -482,7 +482,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: rgba(13, 66, 255, 0.8);
+    background: #cc5500;
   }
 
   .navbar .dropdown ul,
@@ -1301,8 +1301,8 @@ section {
 }
 
 .horizontal-pricing .buy-btn:hover {
-  background: #406aff;
-  border-color: #406aff;
+  background: #cc5500;
+  border-color: #cc5500;
 }
 
 .horizontal-pricing .featured {
@@ -1440,7 +1440,8 @@ section {
 }
 
 .get-a-quote .php-email-form button[type=submit]:hover {
-  background: rgba(13, 66, 255, 0.8);
+  /* background: rgba(13, 66, 255, 0.8); */
+  color: #CC5500;
 }
 
 @keyframes animate-loading {
@@ -1485,6 +1486,8 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: rgba(14, 29, 52, 0.8);
+  /* color: #CC5500; */
+
 }
 
 .contact .php-email-form {
@@ -1562,7 +1565,9 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(13, 66, 255, 0.8);
+  /* background: rgba(13, 66, 255, 0.8); */
+  color: #CC5500;
+
 }
 
 @keyframes animate-loading {
@@ -1703,7 +1708,7 @@ section {
 }
 
 .hero form .btn-primary:hover {
-  background-color: #2756ff;
+  background-color: #cc5500;
 }
 
 .hero .stats-item {
@@ -1854,13 +1859,13 @@ section {
   color: #fff;
 }
 
-*,
+/* *,
 *:before,
 *:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 .popup{
   background-color: #ffffff;
   width: 450px;
